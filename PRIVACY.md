@@ -3,7 +3,7 @@
 codex-delegation-guard runs entirely on your machine. It makes no network requests and sends nothing to any service, including the plugin author.
 
 ## What it reads
-- The hook input Claude Code passes to it: session id, working directory, tool name and tool arguments. Prompt text is read only to detect pause phrases and notification markers.
+- The hook input Claude Code passes to it: session id, working directory, tool name and tool arguments. Prompt text is read only to detect pause phrases, notification markers and whether the prompt looks like a coding task (for the split reminder); it is never stored.
 - For a `Write` to an existing file, the current file content, so it can count the changed lines.
 - Its own config files: `~/.claude/delegation-guard.json` and `<repo>/.claude/delegation-guard.json`.
 
