@@ -6,5 +6,6 @@
   "homepage": "https://github.com/publicmain/codex-delegation-guard",
   "repository": "https://github.com/publicmain/codex-delegation-guard",
   "license": "MIT",
+  "icon": ".claude-plugin/icon.png",
   "keywords": ["claude-code", "claude-code-plugin", "codex", "openai-codex", "delegation", "hooks", "ai-agents"]
 }

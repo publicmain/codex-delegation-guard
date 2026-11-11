@@ -1,6 +1,5 @@
 ---
 description: Pause the delegation guard for the rest of this session
-allowed-tools: Bash(node:*)
 ---
 
 Run this command through Bash in the current project, then report its result.

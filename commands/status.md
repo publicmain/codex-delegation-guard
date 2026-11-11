@@ -1,6 +1,5 @@
 ---
 description: Show mode, thresholds, pauses, session lines and observed delegations
-allowed-tools: Bash(node:*)
 ---
 
 Run this command through Bash in the current project and summarize the JSON result.

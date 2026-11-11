@@ -1,6 +1,5 @@
 ---
 description: Review seven-day delegation rates, sizes and recent override reasons by project
-allowed-tools: Bash(node:*)
 ---
 
 Run this command through Bash, then summarize the JSON result by project.

@@ -8,7 +8,7 @@
 [![Node >= 18](https://img.shields.io/badge/node-%3E%3D18-green.svg)](package.json)
 [![测试](https://github.com/publicmain/codex-delegation-guard/actions/workflows/test.yml/badge.svg)](https://github.com/publicmain/codex-delegation-guard/actions/workflows/test.yml)
 
-![Claude 正要写 214 行，守卫拦下，Claude 把活交给 Codex](docs/demo.png)
+![Claude 正要写 214 行，守卫拦下，Claude 把活交给 Codex](https://raw.githubusercontent.com/publicmain/codex-delegation-guard/assets/demo.png)
 
 <sub>示意图（消息有删节）。</sub>
 

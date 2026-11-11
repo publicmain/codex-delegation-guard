@@ -8,7 +8,7 @@ Make Claude Code actually hand big coding jobs to Codex — a hook-based divisio
 [![Node >= 18](https://img.shields.io/badge/node-%3E%3D18-green.svg)](package.json)
 [![Tests](https://github.com/publicmain/codex-delegation-guard/actions/workflows/test.yml/badge.svg)](https://github.com/publicmain/codex-delegation-guard/actions/workflows/test.yml)
 
-![Claude is about to write 214 lines; the guard stops it and Claude hands the job to Codex](docs/demo.png)
+![Claude is about to write 214 lines; the guard stops it and Claude hands the job to Codex](https://raw.githubusercontent.com/publicmain/codex-delegation-guard/assets/demo.png)
 
 <sub>Illustration of a session (messages abridged).</sub>
 
