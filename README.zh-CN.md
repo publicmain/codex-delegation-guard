@@ -8,6 +8,10 @@
 [![Node >= 18](https://img.shields.io/badge/node-%3E%3D18-green.svg)](package.json)
 [![测试](https://github.com/publicmain/codex-delegation-guard/actions/workflows/test.yml/badge.svg)](https://github.com/publicmain/codex-delegation-guard/actions/workflows/test.yml)
 
+![Claude 正要写 214 行，守卫拦下，Claude 把活交给 Codex](docs/demo.png)
+
+<sub>示意图（消息有删节）。</sub>
+
 ## 要解决的问题
 
 在 `CLAUDE.md` 中写“把大型编码任务交给 Codex”，仍然只是一条指令。

@@ -1,6 +1,9 @@
 {
   "name": "codex-delegation-guard",
   "owner": { "name": "publicmain" },
+  "metadata": {
+    "description": "Division-of-labour guard for Claude Code + the official Codex plugin: split-first reminders, write-time checks on large code changes, delegate-or-justify, local stats."
+  },
   "plugins": [
     {
       "name": "codex-delegation-guard",
