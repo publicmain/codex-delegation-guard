@@ -559,7 +559,8 @@ for (const source of ['startup', 'resume', 'compact']) {
     assert.match(policy, /brief.*waiter/);
     assert.match(policy, /before.*first edit/);
     assert.match(policy, /Split: Codex does/);
-    const skill = fs.readFileSync(path.join(root, 'skills/delegation-guard/SKILL.md'), 'utf8');
+    // A Windows checkout may turn LF into CRLF; compare the wording, not the line endings.
+    const skill = fs.readFileSync(path.join(root, 'skills/delegation-guard/SKILL.md'), 'utf8').replace(/\r\n/g, '\n');
     assert.ok(skill.includes(criteria));
   });
 }
