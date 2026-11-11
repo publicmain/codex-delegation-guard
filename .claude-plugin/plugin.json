@@ -1,0 +1,10 @@
+{
+  "name": "codex-delegation-guard",
+  "version": "0.2.1",
+  "description": "Help Claude and Codex divide work before editing, with criteria-based delegation or justified direct changes.",
+  "author": { "name": "publicmain", "url": "https://github.com/publicmain" },
+  "homepage": "https://github.com/publicmain/codex-delegation-guard",
+  "repository": "https://github.com/publicmain/codex-delegation-guard",
+  "license": "MIT",
+  "keywords": ["claude-code", "claude-code-plugin", "codex", "openai-codex", "delegation", "hooks", "ai-agents"]
+}

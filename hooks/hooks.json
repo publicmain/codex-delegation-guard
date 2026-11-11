@@ -1,0 +1,33 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|compact",
+        "hooks": [
+          { "type": "command", "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/guard.mjs\" SessionStart" }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit|NotebookEdit",
+        "hooks": [
+          { "type": "command", "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/guard.mjs\" PreToolUse" }
+        ]
+      },
+      {
+        "matcher": "Bash|Agent|Task",
+        "hooks": [
+          { "type": "command", "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/guard.mjs\" PreToolUse" }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          { "type": "command", "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/guard.mjs\" UserPromptSubmit" }
+        ]
+      }
+    ]
+  }
+}

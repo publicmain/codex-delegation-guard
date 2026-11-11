@@ -1,0 +1,12 @@
+{
+  "name": "codex-delegation-guard",
+  "owner": { "name": "publicmain" },
+  "plugins": [
+    {
+      "name": "codex-delegation-guard",
+      "source": "./",
+      "description": "A hook-based division-of-labour guard for Claude Code and the official Codex plugin, with split-first reminders and justified overrides.",
+      "version": "0.2.1"
+    }
+  ]
+}

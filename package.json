@@ -1,0 +1,13 @@
+{
+  "name": "codex-delegation-guard",
+  "version": "0.2.1",
+  "description": "A hook-based division-of-labour guard for Claude Code and the official Codex plugin.",
+  "repository": "https://github.com/publicmain/codex-delegation-guard",
+  "homepage": "https://github.com/publicmain/codex-delegation-guard",
+  "keywords": ["claude-code", "claude-code-plugin", "codex", "openai-codex", "delegation", "hooks", "ai-agents"],
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test" }
+}
